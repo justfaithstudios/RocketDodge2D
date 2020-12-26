@@ -1,0 +1,18 @@
+{
+	"AchievementIDs":[],
+	"LeaderboardIDs":[
+		{
+			"InternalID":"RDHighscore",
+			"AppleID":"com.RocketDodge2D.JaeWilliams",
+			"GoogleID":"CgkIo86v5OEWEAIQAA"
+		}
+	],
+	"CloudVariables":[],
+	"AppleSupported":true,
+	"GoogleSupported":true,
+	"GoogleAppID":"782162978595",
+	"GoogleSetupRun":true,
+	"DebugModeEnabled":false,
+	"Version":"2.7.1",
+	"SettingsLocation":"0"
+}

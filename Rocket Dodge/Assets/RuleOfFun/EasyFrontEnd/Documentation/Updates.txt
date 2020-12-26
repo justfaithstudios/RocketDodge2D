@@ -1,0 +1,50 @@
+Easy Front End Updates
+
+//////////////////////////////////////////////////////////////////////
+02 October 2017 - Hotfix v1.01
+//////////////////////////////////////////////////////////////////////
+
+-Fixed bug where popups could block other panels.
+
+//////////////////////////////////////////////////////////////////////
+25 September 2017 - Version 1.0
+//////////////////////////////////////////////////////////////////////
+
+*** We highly encourage you MAKE A BACKUP and delete your old EasyFrontEnd folder before importing this update ***
+
+-Added Screen Fade transitions 
+
+-Vanilla Scene example contains screen fade example and there is also a pre-rolled prefab called Panel_FadeTransitionSCreen you can use.
+
+-Context sensetive tooltips for all new features.
+
+-Added list of object listeners that can listen to a message (EFE_Panel_Opened) whenever a panel is opened.
+
+-Fixed issue where transitions could get stuck if you quickly multi tapped a button.(Especially noticable with slow transitions))
+
+-Added option to switch off 3d cameras during transitions (so the 3d world cannot be seen during slide transitions )
+
+-Updated Help Documentation
+
+//////////////////////////////////////////////////////////////////////
+Beta Version 0.11 - 9th March 2016
+//////////////////////////////////////////////////////////////////////
+
+
+*** We recommend you delete your old EasyFrontEnd folder before importing this update ***
+
+-Added user events once a transition has completed. (OnTransitionComplete event) Uses the Unity UI system. Can run a function on any of your game objects once the transition has completed.
+
+-Added support for other child object to transition into a panel after the main panel has transitioned in. (Think of a menu screen where the buttons slide in individually after a delay)
+
+-Allowed for a delay on panels which transition in
+
+-Added prefabs for templates as the previous scenes seemed to lose their references when imported to newer versions of unity.
+Users should now drag and drop a prefab into their existing scene to get going rather than working from a premade scene.
+
+-Added new template (Vanilla). A portrait template with basic functionality
+
+-Bug Fixes
+
+-Updated documentation.
+
